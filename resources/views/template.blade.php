@@ -29,7 +29,7 @@
                     @endguest
                     @auth
                         <a href="/donations/create" class="btn me-2">Buat Donasi baru</a>
-                        <a href="/login" class="btn me-2">Riwayat Nyawer</a>
+                        <a href="/history-payments" class="btn me-2">Riwayat Nyawer</a>
                         <form action="/logout" method="post">
                             @csrf
                             <button type="submit" class="btn btn-danger">Logout</button>
